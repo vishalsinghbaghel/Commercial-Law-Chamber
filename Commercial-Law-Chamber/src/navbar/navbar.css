@@ -1,0 +1,23 @@
+
+
+.container{
+    display: flex;
+}
+
+.navigation {
+
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding: 1.5%;
+    ;
+    
+}
+.Logo{
+    width: 15%;
+    justify-content: left;
+}
+a{
+text-decoration: none;
+color: #000000;
+}
