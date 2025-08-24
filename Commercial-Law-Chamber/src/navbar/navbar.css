@@ -1,24 +1,73 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-.container{
-    display: flex;
+.logo {
+  height: 50px;
+  width: auto;
 }
 
 .navigation {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
 
-    display: flex;
-    justify-content: center;
-    gap: 4%;
-    padding: 1.5%;
-    ;
-    
+.link {
+  text-decoration: none;
+  color: #002147; /* Navy Blue */
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
 }
-.Logo{
-    width: 15%;
-   display: flex;
-   justify-content: flex-start;
+
+.menu-item {
+  position: relative;
 }
-a{
-text-decoration: none;
-color: #000000;
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+  min-width: 220px;
+}
+
+.sublink {
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.sublink:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+.with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* spacing between text and icon */
+}
+
+.icon {
+  font-size: 0.8em; /* adjust size if needed */
+  vertical-align: middle;
 }
