@@ -15,7 +15,8 @@
 }
 .Logo{
     width: 15%;
-    justify-content: left;
+   display: flex;
+   justify-content: flex-start;
 }
 a{
 text-decoration: none;
