@@ -13,8 +13,6 @@
    
 }
 
-
-
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
@@ -68,4 +66,23 @@
 
 .btn-secondary:hover {
     background-color: #002244;
+}
+
+.welcome-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.welcome-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.welcome-content p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
 }

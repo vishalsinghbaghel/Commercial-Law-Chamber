@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import Logo from "/Logo.jpg";
-import "./navbar.css";
+import "./Navbar.css";
 import { FaAngleDown } from "react-icons/fa";
 
 export const Navbar = () => {
