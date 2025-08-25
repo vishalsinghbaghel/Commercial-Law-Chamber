@@ -1,8 +1,10 @@
+import HeroSection from "./HeroSection"
+
 export const Home = () => {
     
     return (
         <>
-            home page
+         <HeroSection/>
         </>
     )
 }
