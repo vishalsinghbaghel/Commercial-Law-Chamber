@@ -1,38 +1,39 @@
+import styles from "./HeroSection.module.css";
 
-import "./HeroSection.css"; 
-
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
-    <div className="container">
-      
-      <section className="hero-container">
-        <div className="hero-content">
-          <h1 className="hero-title">
+    <div className={styles["container"]}>
+      <section className={styles["hero-container"]}>
+        <div className={styles["hero-content"]}>
+          <h1 className={styles["hero-title"]}>
             Leading Law Firm for Tax & Commercial Litigation
           </h1>
-          <p className="hero-subtitle">
+          <p className={styles["hero-subtitle"]}>
             Trusted by industry leaders for high-stakes disputes and regulatory
             expertise.
           </p>
-          <div className="hero-buttons">
-            <button className="btn-primary">Schedule a Consultation</button>
-            <button className="btn-secondary">Explore Our Services</button>
+          <div className={styles["hero-buttons"]}>
+            <button className={styles["btn-primary"]}>
+              Schedule a Consultation
+            </button>
+            <button className={styles["btn-secondary"]}>
+              Explore Our Services
+            </button>
           </div>
         </div>
       </section>
 
-       <section className="welcome-section">
-        <div className="welcome-content">
+      <section className={styles["welcome-section"]}>
+        <div className={styles["welcome-content"]}>
           <h2>Welcome to CLC</h2>
           <p>
-            At CLC, we specialize in resolving complex disputes and navigating regulatory frameworks
-            with precision and integrity. Our commitment to excellence has earned the trust of
-            industry leaders across sectors.
+            At CLC, we specialize in resolving complex disputes and navigating
+            regulatory frameworks with precision and integrity. Our commitment
+            to excellence has earned the trust of industry leaders across
+            sectors.
           </p>
         </div>
       </section>
-
-
     </div>
   );
 };
