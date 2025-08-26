@@ -1,4 +1,4 @@
-export const Expertise = () => {
+export const Tax = () => {
     
     return (
         <>

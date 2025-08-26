@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ButtonBase } from "@mui/material";
 
-const MotionButton = motion(ButtonBase);
+const MotionButton = motion.create(ButtonBase);
 
 export const AnimatedButton = ({ variant = "contained", children }) => {
   const isContained = variant === "contained";

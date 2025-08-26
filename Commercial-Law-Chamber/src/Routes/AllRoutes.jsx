@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../components/home/Home";
-import { About } from "../components/about/About";
+import { Story } from "../components/about/About";
 import { Team } from "../components/about/Team";
-import { Expertise } from "../components/expertise/Expertise";
+import { Tax } from "../components/expertise/Tax";
 // import { Tax } from "../components/expertise/Tax";
 // import { Disputes } from "../components/expertise/Disputes";
-// import { Telecom } from "../components/expertise/Telecom";
+ import { Telecom } from "../components/expertise/Telecom";
 // import { Agriculture } from "../components/expertise/Agriculture";
 // import { Aviation } from "../components/expertise/Aviation";
 // import { Pharma } from "../components/expertise/Pharma";
@@ -25,18 +25,19 @@ export const AllRoutes = () => {
       <Route path="/" element={<Home />} />
 
       {/* About Routes */}
-      <Route path="/about" element={<About />} />
-      <Route path="/about/story" element={<About />} />
-      <Route path="/about/team" element={<Team />} />
+      {/* <Route path="/about" element={<About />} /> */}
+      <Route path="/about/story" element={<Story />} />
+      <Route path="/about/Team" element={<Team />} />
       {/* <Route path="/about/approach" element={<OurApproach />} />
       <Route path="/about/values" element={<ValuesVision />} />
       <Route path="/about/location" element={<Location />} /> */}
 
       {/* Expertise Routes */}
-      <Route path="/expertise" element={<Expertise />} />
-      {/* <Route path="/expertise/tax" element={<Tax />} />
-      <Route path="/expertise/disputes" element={<Disputes />} />
+      {/* <Route path="/expertise" element={<Expertise />} /> */}
+      <Route path="/expertise/tax" element={<Tax />} />
       <Route path="/expertise/telecom" element={<Telecom />} />
+      {/* <Route path="/expertise/disputes" element={<Disputes />} />
+      
       <Route path="/expertise/agriculture" element={<Agriculture />} />
       <Route path="/expertise/aviation" element={<Aviation />} />
       <Route path="/expertise/pharma" element={<Pharma />} />
