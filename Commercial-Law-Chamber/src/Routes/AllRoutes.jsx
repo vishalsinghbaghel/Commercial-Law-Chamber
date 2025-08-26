@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../components/home/Home";
-import { Story } from "../components/about/About";
+import { About } from "../components/about/About";
 import { Team } from "../components/about/Team";
 import { Tax } from "../components/expertise/Tax";
 // import { Tax } from "../components/expertise/Tax";
@@ -26,7 +26,7 @@ export const AllRoutes = () => {
 
       {/* About Routes */}
       {/* <Route path="/about" element={<About />} /> */}
-      <Route path="/about/story" element={<Story />} />
+      <Route path="/about/about" element={<About />} />
       <Route path="/about/Team" element={<Team />} />
       {/* <Route path="/about/approach" element={<OurApproach />} />
       <Route path="/about/values" element={<ValuesVision />} />
